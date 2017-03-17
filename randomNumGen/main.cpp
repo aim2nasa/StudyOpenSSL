@@ -6,29 +6,24 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-	int retVal = 0;
-
-	// 랜덤 수의 길이는 64로 한다.
+	//set length of random number
 	int length = 64;
 
-	// PRNG에 공급할 Seed 생성
+	//create seed for PRNG
 	RAND_screen();
 
-	// 생성 할 랜덤 수 길이 만큼의 버퍼 생성
+	//create buffer to store random number
 	unsigned char * buffer = (unsigned char *)malloc(sizeof(unsigned char) *(length));
 
-	// PRNG 실행
-	retVal = RAND_bytes(buffer, length);
-	if (retVal <= 0)
-	{ // 에러가 발생한 경우
-		printf("랜덤수 생성시 에러가 발생했습니다.");
-		return 0;
+	//perform PRNG
+	if (RAND_bytes(buffer, length) <= 0)
+	{
+		cout << "Error in generating random number" << endl;
+		return -1;
 	}
 
-	// 랜덤수를 화면에 표시 한다. 
-	printf("랜덤수는 = ");
-	for (int i = 0; i<length; i++)
-		printf("%c", buffer[i]);
-
+	cout << "Random number : " << endl;
+	for (int i = 0; i < length; i++) cout << hex << (int)buffer[i] << " ";
+	cout << endl;
 	return 0;
 }
