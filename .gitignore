@@ -1,1 +1,5 @@
 bin
+/.vs/StudyOpenSSL/v14/.suo
+*.suo
+/StudyOpenSSL.VC.db
+/StudyOpenSSL.VC.VC.opendb
