@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <openssl/err.h>
 #include <openssl/rand.h>
 
@@ -23,7 +24,12 @@ int main(int argc, char* argv[])
 	}
 
 	cout << "Random number : " << endl;
-	for (int i = 0; i < length; i++) cout << hex << (int)buffer[i] << " ";
+
+	cout << showbase		// show the 0x prefix
+		 << internal		// fill between the prefix and the number
+		 << setfill('0');	// fill with 0s
+
+	for (int i = 0; i < length; i++) cout <<hex<<setw(4)<<(int)buffer[i] << " ";
 	cout << endl;
 	return 0;
 }
