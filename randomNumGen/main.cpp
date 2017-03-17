@@ -1,4 +1,6 @@
 #include <iostream>
+#include <openssl/err.h>
+#include <openssl/rand.h>
 
 using namespace std;
 
