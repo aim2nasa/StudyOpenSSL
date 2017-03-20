@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <openssl/evp.h>
 #include <openssl/objects.h>
 #include <openssl/x509.h>
@@ -38,32 +39,29 @@ int main(int argc, char* argv[])
 		(unsigned char *)password,
 		(int)strlen(password), 1, key, iv);
 
+	cout << showbase		// show the 0x prefix
+		<< internal			// fill between the prefix and the number
+		<< setfill('0');	// fill with 0s
+
 	// Salt값을 화면에 표시
-	printf("salt=");
-	for (int i = 0; i<sizeof salt; i++)
-	{
-		printf("%02X", salt[i]);
-	}
-	printf("\n");
+	cout << "Salt : " << endl;
+	for (int i = 0; i < sizeof salt; i++) cout << hex << setw(4) << (int)salt[i] << " ";
+	cout << endl;
+
 	// 키값을 화면에 표시
 	if (cipher->key_len > 0)
 	{
-		printf("key=");
-		for (int i = 0; i<cipher->key_len; i++)
-		{
-			printf("%02X", key[i]);
-		}
-		printf("\n");
+		cout << "Key : " << endl;
+		for (int i = 0; i < cipher->key_len; i++) cout << hex << setw(4) << (int)key[i] << " ";
+		cout << endl;
 	}
+
 	// IV값을 화면에 표시
 	if (cipher->iv_len > 0)
 	{
-		printf("iv =");
-		for (int i = 0; i<cipher->iv_len; i++)
-		{
-			printf("%02X", iv[i]);
-		}
-		printf("\n");
+		cout << "IV : " << endl;
+		for (int i = 0; i < cipher->iv_len; i++) cout << hex << setw(4) << (int)iv[i] << " ";
+		cout << endl;
 	}
 	return 0;
 }
