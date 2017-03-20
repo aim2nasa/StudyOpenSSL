@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "randomNumGen_vc12", "randomNumGen\randomNumGen_vc12.vcxproj", "{180A9A21-0339-47BF-B509-D26899EC5789}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "passwdToKey_vc12", "passwdToKey\passwdToKey_vc12.vcxproj", "{3952445B-C53D-4110-9E25-424F193DC11A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,14 @@ Global
 		{180A9A21-0339-47BF-B509-D26899EC5789}.Release|Win32.Build.0 = Release|Win32
 		{180A9A21-0339-47BF-B509-D26899EC5789}.Release|x64.ActiveCfg = Release|x64
 		{180A9A21-0339-47BF-B509-D26899EC5789}.Release|x64.Build.0 = Release|x64
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Debug|Win32.Build.0 = Debug|Win32
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Debug|x64.ActiveCfg = Debug|x64
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Debug|x64.Build.0 = Debug|x64
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Release|Win32.ActiveCfg = Release|Win32
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Release|Win32.Build.0 = Release|Win32
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Release|x64.ActiveCfg = Release|x64
+		{3952445B-C53D-4110-9E25-424F193DC11A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
