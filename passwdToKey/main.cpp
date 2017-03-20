@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 	if (ret< 0)
 	{
 		printf("랜덤 수를 생성 할 수 없습니다.");
-		exit(1);
+		return -1;
 	}
 
 	// 암호화 구조체의 인스턴스를 생성. 여기서는 DES의 ECB모드의 암호화 구조체 생성
