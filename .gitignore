@@ -6,3 +6,5 @@ bin
 /StudyOpenSSL_vc12.sdf
 /randomNumGen/randomNumGen_vc12.vcxproj.user
 /StudyOpenSSL_vc12.opensdf
+/privKeyEnc/encrypt.bin
+/privKeyEnc/privKeyEnc_vc12.vcxproj.user
