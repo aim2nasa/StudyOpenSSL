@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 	unsigned char * outbuf = (unsigned char *)malloc(sizeof(unsigned char)* (len + EVP_CIPHER_CTX_block_size(&ctx)));
 	int outlen, tmplen;
 	//업데이트, 마지막 블록을 제외 하고 모두 암호화
-	if (!EVP_EncryptUpdate(&ctx, outbuf, &outlen, readBuffer, strlen((char *)readBuffer)))
+	if (!EVP_EncryptUpdate(&ctx, outbuf, &outlen, readBuffer, (int)strlen((char *)readBuffer)))
 	{
 		return 0;
 	}
