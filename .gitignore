@@ -12,3 +12,5 @@ bin
 /*.opendb
 /privKeyDec/plain.txt
 /privKeyDec/privKeyDec_vc12.vcxproj.user
+/privKeyEncBio/encrypt.bin
+/privKeyEncBio/privKeyEncBio_vc12.vcxproj.user
