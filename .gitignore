@@ -16,3 +16,6 @@ bin
 /privKeyEncBio/privKeyEncBio_vc12.vcxproj.user
 /md/md_vc12.vcxproj.user
 /genRsaKey/genRsaKey_vc12.vcxproj.user
+/rsaKeyEncDec/rsaKeyEncDec_vc12.vcxproj.user
+/rsaKeyEncDec/encrypt.bin
+/rsaKeyEncDec/recovered.txt
