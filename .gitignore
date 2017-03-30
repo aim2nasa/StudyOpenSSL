@@ -10,3 +10,5 @@ bin
 /privKeyEnc/privKeyEnc_vc12.vcxproj.user
 /StudyOpenSSL_v14.VC.db
 /*.opendb
+/privKeyDec/plain.txt
+/privKeyDec/privKeyDec_vc12.vcxproj.user
