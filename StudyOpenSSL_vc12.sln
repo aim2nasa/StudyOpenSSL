@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "privKeyEncBio_vc12", "privK
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "md_vc12", "md\md_vc12.vcxproj", "{D534932A-23B7-4F21-9AA2-85BA8842DF69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genRsaKey_vc12", "genRsaKey\genRsaKey_vc12.vcxproj", "{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -71,6 +73,14 @@ Global
 		{D534932A-23B7-4F21-9AA2-85BA8842DF69}.Release|Win32.Build.0 = Release|Win32
 		{D534932A-23B7-4F21-9AA2-85BA8842DF69}.Release|x64.ActiveCfg = Release|x64
 		{D534932A-23B7-4F21-9AA2-85BA8842DF69}.Release|x64.Build.0 = Release|x64
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Debug|Win32.Build.0 = Debug|Win32
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Debug|x64.ActiveCfg = Debug|x64
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Debug|x64.Build.0 = Debug|x64
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Release|Win32.ActiveCfg = Release|Win32
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Release|Win32.Build.0 = Release|Win32
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Release|x64.ActiveCfg = Release|x64
+		{6E71DA7F-17FD-4B9F-9075-4CC94798C4FA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
