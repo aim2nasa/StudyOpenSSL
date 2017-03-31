@@ -21,3 +21,4 @@ bin
 /rsaKeyEncDec/recovered.txt
 /verifyCert/verifyCert_vc12.vcxproj.user
 /rsaKeyEncDec/out
+/SslServer/SslServer_vc12.vcxproj.user
