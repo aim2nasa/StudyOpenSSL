@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genRsaKey_vc12", "genRsaKey
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rsaKeyEncDec_vc12", "rsaKeyEncDec\rsaKeyEncDec_vc12.vcxproj", "{4C11DF2F-882B-4D34-B552-E84AB60FA8E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "verifyCert_vc12", "verifyCert\verifyCert_vc12.vcxproj", "{368092CD-28AD-49B4-A182-9635FD10FE9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +93,14 @@ Global
 		{4C11DF2F-882B-4D34-B552-E84AB60FA8E5}.Release|Win32.Build.0 = Release|Win32
 		{4C11DF2F-882B-4D34-B552-E84AB60FA8E5}.Release|x64.ActiveCfg = Release|x64
 		{4C11DF2F-882B-4D34-B552-E84AB60FA8E5}.Release|x64.Build.0 = Release|x64
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Debug|Win32.Build.0 = Debug|Win32
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Debug|x64.ActiveCfg = Debug|x64
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Debug|x64.Build.0 = Debug|x64
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Release|Win32.ActiveCfg = Release|Win32
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Release|Win32.Build.0 = Release|Win32
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Release|x64.ActiveCfg = Release|x64
+		{368092CD-28AD-49B4-A182-9635FD10FE9D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

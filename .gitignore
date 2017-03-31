@@ -19,3 +19,5 @@ bin
 /rsaKeyEncDec/rsaKeyEncDec_vc12.vcxproj.user
 /rsaKeyEncDec/encrypt.bin
 /rsaKeyEncDec/recovered.txt
+/verifyCert/verifyCert_vc12.vcxproj.user
+/rsaKeyEncDec/out
