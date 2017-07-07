@@ -10,7 +10,7 @@
 #include <openssl/ssl.h>
 
 #define PORT 7921
-#define SERVER_ADDRESS "192.168.10.254"
+#define SERVER_ADDRESS "127.0.0.1"
 
 int main(int argc, char* argv[])
 {
@@ -118,6 +118,7 @@ int main(int argc, char* argv[])
 	printf("SSL 연결, 사용 알고리즘 파라메터: [%s]\n", currentChipher);
 
 
+#if 0
 	server_cert = SSL_get_peer_certificate(ssl);
 	if (server_cert == NULL) {
 		BIO_printf(errBIO, "서버 인증서를 받을 수 없음.");
@@ -149,6 +150,8 @@ int main(int argc, char* argv[])
 	OPENSSL_free(retString);
 
 	X509_free(server_cert);
+#endif // 0
+
 
 	char buffer[1000];
 

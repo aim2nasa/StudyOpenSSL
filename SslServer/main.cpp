@@ -10,7 +10,7 @@
 #include <openssl/ssl.h>
 
 #define PORT 7921
-#define SERVER_ADDRESS "192.168.10.254"
+#define SERVER_ADDRESS "127.0.0.1"
 
 // 서버 인증서와 개인키 파일 정의
 #define CERT_FILE "rootcert.pem"
